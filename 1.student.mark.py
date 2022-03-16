@@ -97,13 +97,13 @@ while not end:
         if not empty:
             list_student()
         else:
-            print("There are no students in class!")
+            print("0 student in class!")
     elif choice == "4":
         empty = is_empty(CourseList)
         if not empty:
             list_course()
         else:
-            print("There are no courses!")
+            print("0 course!")
     elif choice == "5":
         add_mark_to_course(Mark, StudentList, CourseList)
     elif choice == "6":
@@ -111,7 +111,7 @@ while not end:
         if not empty:
             list_Mark()
         else:
-            print("There are no courses have mark!")
+            print("0 mark!")
     elif choice == "0":
         end = True
     else:
