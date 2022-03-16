@@ -87,7 +87,7 @@ while not end:
     print("[5] Add student's marks to a course")
     print("[6] Show a course with marks")
     print("[0] Exit")
-    choice = input("Please choose an option: ")
+    choice = input("Choose a number")
     if choice == "1":
         input_StudentList(info=StudentList)
     elif choice == "2":
