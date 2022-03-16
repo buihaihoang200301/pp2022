@@ -15,7 +15,7 @@ def input_StudentList(info):
             info[id] = student
             num = num - 1
         else:
-            print(f"This id existed.")
+            print("")
     
 
 def input_CourseList(info):
@@ -29,7 +29,7 @@ def input_CourseList(info):
             info[id] = course
             num = num - 1
         else:
-            print(f"This id existed.")
+            print("")
     
 
 
